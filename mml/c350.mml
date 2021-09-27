@@ -1,0 +1,54 @@
+
+#Title	#350
+#Title2	作曲:米村高広/(c)AQUAPLUS2002
+;       0123456789012345678901234
+
+!!bg @6  V125 ?o4c   ; bass drum(909)
+!!Bg @6  V100 ?o4c   ; bass drum(909)
+!!sg @8  V120 ?o4c   ; snare drum(909)
+;!!sg @7  V114 ?o4c   ; snare drum(909)
+!!Sg @7  V90 ?o4c   ; snare drum
+!!og @9  V90  ?o4c   ; open H.H.
+!!hg @10 V90  ?o4c   ; closeH.H.
+!!cg @11 V113 ?o4c   ; crush cymbal
+;    @12 V115 ?o4c
+!!tg @13 V110 ?o4c   ; synth tom (hi)
+!!ug @14 V110 ?o4c   ; synth tom (mid)
+!!vg @15 V110 ?o4c   ; synth tom (low)
+!!Cg @16 V120 ?o4c   ; clap
+
+A T150			; tmp(テンポ)
+  @3			; ino(音色)
+  V99			; vol(音量)
+  Q7			; gat(ゲート)
+  D0			; dtn(デチューン)
+  E240,120,110,50	; env(エンベロープ)
+B @4V102D8 Q7 E255,130,110,70 Y6,140,90,40
+C @4V76 D-8 Q7 E240,130,110,70 Y8,150,7,40 r8.
+D @0V76 D0 Q7E255,130,110,70
+E @0V76 D0 Q7E255,130,110,70
+F =1 ; ドラムパートの掟
+
+!i E240,130,110,50 Y8,150,7,40
+
+!r _-5
+A l12o3 !r
+B l12o6 !r
+C l12o6 !r
+D l12o5 !r
+E l12o5 !r
+J l12
+
+BC L a6rf6rd6rf6r arb-a6g&g6fe6f g6re6rc6re6r grgg6f+4ag6a& 
+BC a6<cd6e4>ag6a& a6<de6g4>ag6a& a6<cd6e4>rr6g >c4<b-6a4gf6g
+D L r4a6ar4b-4 r4a6ar4g4 r4g6gr4a4 r4g6gr4f+4
+E L r4f6fr4f4  r4f6fr4f4 r4e6er4e4 r4d6dr4d4
+D  r4f6 f r4f4  r4e6 e r4e4  r4g6gr4g4 r4f6fr4f4
+E  r4d6 d r4d4  r4d6 d r4d4  r4e6er4e4 r4d6dr4d4
+A L b-4a4f4d4 <b-4>d4f4d4 a4g4e4c4 d4e4f+4d4
+A  g4f4d4<b-4> e4f4g4e4 a4g4e4c4 d4f4g4d4
+; 
+J L l12 [[!bg6 g12!sg6!hg g6!bg12!sg6!og]3
+J       !bg6 g12!sg6!hg g6!sg g6 g ]2
+
+
